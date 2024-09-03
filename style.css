@@ -40,7 +40,7 @@ nav a:hover {
 
 #img_titulo {
     width: 90px;
-    background: white;
+    background: none;
     border-radius: 50px;
     margin: 0 auto;
 }
@@ -172,7 +172,7 @@ nav a:hover {
     background: white;
 }
 .produtos {
-    width: 940px;
+    width: 1200px;
     margin: 0 auto;
     padding: 50px 0;
 }
@@ -207,6 +207,11 @@ nav a:hover {
 .produtos li:hover {
     border-color:#C78C19;
     font-size: 40px;
+}
+
+.img-produtos{
+    width: 250px;
+    height: 250px;
 }
 
 .produtos li:active {
@@ -333,6 +338,11 @@ footer {
 .table-horario:hover {
     transform: scale(1.02);
     border: #adadad;
+}
+
+footer img{
+    width: 250px;
+    max-height: 250px;
 }
 
 .linkedin {
